@@ -2,7 +2,7 @@
 FROM biansepang/weebproject:buster
 
 # Clone repo and prepare working directory
-RUN git clone -b master https://github.com/BianSepang/WeebProject /home/weebproject/ \
+RUN git clone -b master https://github.com/OnLyNova01/Bot /home/weebproject/ \
     && chmod 777 /home/weebproject \
     && mkdir /home/weebproject/bin/
 
@@ -14,3 +14,5 @@ WORKDIR /home/weebproject/
 
 # Finalization
 CMD ["python3","-m","userbot"]
+
+
