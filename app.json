@@ -1,11 +1,11 @@
 {
-  "name": "WeebProject Userbot Fallback",
+  "name": "OnLyNova Userbot Fallback",
   "description": "A modular Telegram userbot running on Python 3.8, this is a fallback for main userbot.",
   "keywords": [
     "telegram",
     "userbot"
   ],
-  "repository": "https://github.com/BianSepang/WeebProject",
+  "repository": "https://github.com/OnLyNova01/Bot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -41,7 +41,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "Your forked repo.",
-      "value": "https://github.com/adekmaulana/ProjectBish",
+      "value": "https://github.com/OnLyNova01/test",
       "required": true
     },
     "MAIN_REPO_BRANCH": {
